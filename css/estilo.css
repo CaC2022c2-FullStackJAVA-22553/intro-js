@@ -1,0 +1,12 @@
+body {
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.azul {
+    color: blue;
+}
+
+.negrita {
+    font-weight: bold;
+}

@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-    <form action="" id="elForm">
-        <label for="">Nombre:</label>
-        <br>
-        <input id="inputNombre" type="text">
-        <br>
-        <label for="">Fecha de nacimiento:</label>
-        <br>
-        <input id="inputFechaNac" type="date">
-        <br>
-        <label for="">Tu mensaje:</label>
-        <br>
-        <textarea cols="25" rows="5"></textarea>
-        <br>
-        <input type="submit">
-        <input type="reset">
-    </form>
-    <script src="js/12-objetos.js"></script>
-</body>
-
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/estilo.css">
+    </head>
+    <body>
+        <div id="caja">
+            <h1 class="azul">Probando manipulación del DOM</h1>
+            <h2>Se vienen cosas más interesantes</h2>
+            <p class="azul negrita">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sapiente enim vel alias fugit modi aspernatur neque aliquid quo pariatur illo, dolorum, ipsum tenetur repellat. Consectetur laborum minima delectus veritatis?
+            </p>
+        </div>
+        <form action="" id="elForm">
+            <label for=""  class="azul">Nombre:</label>
+            <br>
+            <input id="inputNombre" type="text">
+            <br>
+            <label for="">Fecha de nacimiento:</label>
+            <br>
+            <input class="azul" id="inputFechaNac" type="date" value="1993-02-24">
+            <br>
+            <label for="">Tu mensaje:</label>
+            <br>
+            <textarea cols="25" rows="5"></textarea>
+            <br>
+            <input type="submit">
+            <input type="reset">
+        </form>
+        <script src="js/13-accesoAlDOM.js"></script>
+    </body>
 </html>
