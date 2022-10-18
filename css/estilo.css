@@ -10,3 +10,10 @@ body {
 .negrita {
     font-weight: bold;
 }
+
+button {
+    padding:1em;
+    font-size: 2em;
+    background: rgb(121, 179, 255);
+    border-radius: 20px;
+}
